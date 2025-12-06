@@ -5,7 +5,7 @@ Built for real-world options trading, portfolio hedging, and volatility analysis
 
 ---
 
-## 📁 Files Included
+##  Files Included
 
 1. **black_scholes_calculator.py** - Core pricing engine with full Greeks
 2. **trading_scenarios.py** - 6 practical trading scenarios with real examples
@@ -13,7 +13,7 @@ Built for real-world options trading, portfolio hedging, and volatility analysis
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Basic Usage
 ```python
@@ -58,7 +58,7 @@ print(f"Implied Volatility: {iv*100:.1f}%")  # 41.8%
 
 ---
 
-## 💡 Real Trading Applications
+##  Real Trading Applications
 
 ### 1. Find Mispriced Options
 Compare theoretical Black-Scholes price to market price:
@@ -106,7 +106,7 @@ shares_to_buy = 450  # Hedge to delta neutral
 
 ---
 
-## 📊 Output Examples
+##  Output Examples
 
 ### Call Option Analysis
 ```
@@ -142,7 +142,7 @@ Trading Insights:
 
 ---
 
-## 🎯 Practical Trading Scenarios
+## Practical Trading Scenarios
 
 Run `python trading_scenarios.py` to see 6 detailed scenarios:
 
@@ -187,7 +187,7 @@ d2 = d1 - σ·√T
 
 ---
 
-## 📈 Integration with Live Market Data
+## Integration with Live Market Data
 
 ### Install yfinance for real-time data:
 ```bash
@@ -220,7 +220,7 @@ scan_volatility_opportunities('NVDA', '2025-01-17')
 
 ---
 
-## 🎓 Understanding Option Pricing
+##  Understanding Option Pricing
 
 ### Moneyness
 - **In-the-Money (ITM)**: Has intrinsic value
@@ -246,7 +246,7 @@ Black-Scholes calculates probability of finishing ITM:
 
 ---
 
-## ⚠️ Model Limitations & Considerations
+##  Model Limitations & Considerations
 
 ### Black-Scholes Assumptions
 1. **European exercise only** - US equity options are American (can exercise early)
@@ -274,7 +274,7 @@ Black-Scholes calculates probability of finishing ITM:
 
 ---
 
-## 🛠 Next Steps for Enhancement
+##  Next Steps for Enhancement
 
 ### Phase 2 Additions:
 1. **Historical vs Implied Vol Comparison**
@@ -324,7 +324,7 @@ Black-Scholes calculates probability of finishing ITM:
 
 ---
 
-## 📝 Quick Reference Card
+## Quick Reference Card
 
 ### Option Price
 ```python
@@ -355,7 +355,7 @@ implied_volatility(market_price, S, K, T, r, 'call')
 
 ---
 
-## 💪 Trading Edge Development
+## Trading Edge Development
 
 ### How to Find Profitable Trades
 
@@ -386,7 +386,7 @@ implied_volatility(market_price, S, K, T, r, 'call')
 
 ---
 
-## 🔐 Risk Management Rules
+## Risk Management Rules
 
 1. **Never risk more than 2-5% of capital per trade**
 2. **Always know your max loss before entering**
@@ -396,7 +396,7 @@ implied_volatility(market_price, S, K, T, r, 'call')
 
 ---
 
-## 📞 Support & Questions
+## Support & Questions
 
 This toolkit is designed for educational and analysis purposes. Always:
 - Verify calculations with multiple sources
@@ -409,9 +409,7 @@ Only trade with capital you can afford to lose.
 
 ---
 
-## 🎉 You're Ready!
-
-You now have a professional-grade Black-Scholes calculator with:
+## Black-Scholes calculator with:
 ✅ Full pricing engine
 ✅ All Greeks calculations  
 ✅ Implied volatility solver
@@ -419,7 +417,4 @@ You now have a professional-grade Black-Scholes calculator with:
 ✅ Live market data integration template
 ✅ Comprehensive documentation
 
-**Next action**: Run `python black_scholes_calculator.py` to see examples, 
-then start analyzing your own positions!
 
-Good luck with your options trading! 🚀📈
